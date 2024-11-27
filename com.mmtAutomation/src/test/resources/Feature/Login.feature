@@ -34,7 +34,7 @@ And user clicks on 'continue' button
 When user enters password '<password>'
 And user clicks on 'Login' button
 Then user should see 'error'message as 'Either Username or Password is incorrect.'displayed 'true'
-
+And user should be redirected to 'Login' page
 Examples: 
       | username  | password |
       | kirank@123.com 	  | Makemytrip@123 |
