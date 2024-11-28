@@ -10,7 +10,7 @@ public class LoginPage {
 	
 	String resourceUrl="https://www.makemytrip.com/";
 	WebDriver driver= new ChromeDriver();
-	public void openTheUrl(String string) {
+	public void openTheUrl() {
 		driver.get(resourceUrl);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -6,6 +6,11 @@ public class LoginPageSteps {
 	
 	LoginPage loginPage=new LoginPage();
 
+	public void openTheUrl() {
+		loginPage.openTheUrl();
+		
+	}
+
 	
 	
 
