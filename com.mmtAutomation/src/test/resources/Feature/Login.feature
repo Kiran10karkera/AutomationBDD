@@ -4,11 +4,12 @@ Feature: Login.feature
 @test-1
 Scenario: Validate user can Login with valid credentials
 
-Given user opens the url 'makemytrip'
-#Then  user should be able to see 'login' page
-#Then verify 'personal account' tab selected by default
-#And user clicks on 'Email' button
-#Then verify 'continue' button enabled 'false' 
+Given user opens the url makemytrip
+Then  user should be able to see 'Makemytrip' page
+Then verify 'Personal Account' tab is selected
+And user clicks on 'Email' button
+Then verify 'continue' button enabled 'false' 
+And user clicks on 'Email' text field
 #When user enters username 'kirankarkeraa@gmail.com' 
 #Then 'continue' button should be enabled'true'
 #And user clicks on 'continue' button
